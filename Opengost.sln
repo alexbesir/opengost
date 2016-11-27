@@ -3,8 +3,102 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Client", "Opengost.Client", "{48AE2478-E7FF-41F9-BD7E-0706537E8951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Modules", "Opengost.Modules", "{5F7AFDB0-9D0A-49EA-8A4B-43E8CB612ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Client.Engine", "Opengost.Client\Opengost.Client.Engine\Opengost.Client.Engine.csproj", "{72D408CF-08C0-4C45-95F2-9A7ED43B500B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Client.Shared", "Opengost.Client\Opengost.Client.Shared\Opengost.Client.Shared.csproj", "{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Modules.Core", "Opengost.Modules.Core", "{3BACD35E-8C56-45B3-B783-F164E71C0F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Core.Engine", "Opengost.Modules\Opengost.Modules.Core\Opengost.Modules.Core.Engine\Opengost.Modules.Core.Engine.csproj", "{FA550388-0772-4E41-AE18-CFC93BC6571A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Core.Shared", "Opengost.Modules\Opengost.Modules.Core\Opengost.Modules.Core.Shared\Opengost.Modules.Core.Shared.csproj", "{F6953AD3-E8E4-4A07-93C5-952A74482273}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Modules.Dashboard", "Opengost.Modules.Dashboard", "{848AF913-341F-4EA3-AA16-938379CD35C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Dashboard.Engine", "Opengost.Modules\Opengost.Modules.Dashboard\Opengost.Modules.Dashboard.Engine\Opengost.Modules.Dashboard.Engine.csproj", "{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Dashboard.Shared", "Opengost.Modules\Opengost.Modules.Dashboard\Opengost.Modules.Dashboard.Shared\Opengost.Modules.Dashboard.Shared.csproj", "{317B7809-EC2A-480A-9B2D-62E080DBB7C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Modules.Bookings", "Opengost.Modules.Bookings", "{D17E10DE-A59D-4FA6-BA5A-ECDB2E49BE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Bookings.Engine", "Opengost.Modules\Opengost.Modules.Bookings\Opengost.Modules.Bookings.Engine\Opengost.Modules.Bookings.Engine.csproj", "{1C7FBF42-FA7A-4718-B8DB-946A75E31DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Bookings.Shared", "Opengost.Modules\Opengost.Modules.Bookings\Opengost.Modules.Bookings.Shared\Opengost.Modules.Bookings.Shared.csproj", "{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opengost.Modules.Guestbook", "Opengost.Modules.Guestbook", "{CC69AAF0-F433-412B-B3C0-E3778D7426ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Guestbook.Engine", "Opengost.Modules\Opengost.Modules.Guestbook\Opengost.Modules.Guestbook.Engine\Opengost.Modules.Guestbook.Engine.csproj", "{6A5C7346-77FC-4F65-8972-8559F4889241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opengost.Modules.Guestbook.Shared", "Opengost.Modules\Opengost.Modules.Guestbook\Opengost.Modules.Guestbook.Shared\Opengost.Modules.Guestbook.Shared.csproj", "{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D408CF-08C0-4C45-95F2-9A7ED43B500B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D408CF-08C0-4C45-95F2-9A7ED43B500B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D408CF-08C0-4C45-95F2-9A7ED43B500B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D408CF-08C0-4C45-95F2-9A7ED43B500B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA550388-0772-4E41-AE18-CFC93BC6571A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA550388-0772-4E41-AE18-CFC93BC6571A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA550388-0772-4E41-AE18-CFC93BC6571A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA550388-0772-4E41-AE18-CFC93BC6571A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6953AD3-E8E4-4A07-93C5-952A74482273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6953AD3-E8E4-4A07-93C5-952A74482273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6953AD3-E8E4-4A07-93C5-952A74482273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6953AD3-E8E4-4A07-93C5-952A74482273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317B7809-EC2A-480A-9B2D-62E080DBB7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317B7809-EC2A-480A-9B2D-62E080DBB7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317B7809-EC2A-480A-9B2D-62E080DBB7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317B7809-EC2A-480A-9B2D-62E080DBB7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7FBF42-FA7A-4718-B8DB-946A75E31DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7FBF42-FA7A-4718-B8DB-946A75E31DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7FBF42-FA7A-4718-B8DB-946A75E31DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7FBF42-FA7A-4718-B8DB-946A75E31DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5C7346-77FC-4F65-8972-8559F4889241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5C7346-77FC-4F65-8972-8559F4889241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5C7346-77FC-4F65-8972-8559F4889241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5C7346-77FC-4F65-8972-8559F4889241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72D408CF-08C0-4C45-95F2-9A7ED43B500B} = {48AE2478-E7FF-41F9-BD7E-0706537E8951}
+		{1FDD25C9-D6A7-41E6-B297-1A1439FE76EB} = {48AE2478-E7FF-41F9-BD7E-0706537E8951}
+		{3BACD35E-8C56-45B3-B783-F164E71C0F24} = {5F7AFDB0-9D0A-49EA-8A4B-43E8CB612ED8}
+		{FA550388-0772-4E41-AE18-CFC93BC6571A} = {3BACD35E-8C56-45B3-B783-F164E71C0F24}
+		{F6953AD3-E8E4-4A07-93C5-952A74482273} = {3BACD35E-8C56-45B3-B783-F164E71C0F24}
+		{848AF913-341F-4EA3-AA16-938379CD35C6} = {5F7AFDB0-9D0A-49EA-8A4B-43E8CB612ED8}
+		{1C43CFD4-7CCF-4716-B3CE-84A6ECAF5AEA} = {848AF913-341F-4EA3-AA16-938379CD35C6}
+		{317B7809-EC2A-480A-9B2D-62E080DBB7C2} = {848AF913-341F-4EA3-AA16-938379CD35C6}
+		{D17E10DE-A59D-4FA6-BA5A-ECDB2E49BE4A} = {5F7AFDB0-9D0A-49EA-8A4B-43E8CB612ED8}
+		{1C7FBF42-FA7A-4718-B8DB-946A75E31DED} = {D17E10DE-A59D-4FA6-BA5A-ECDB2E49BE4A}
+		{94230B39-4A4B-4A28-B6A8-CD3C2CB83CC0} = {D17E10DE-A59D-4FA6-BA5A-ECDB2E49BE4A}
+		{CC69AAF0-F433-412B-B3C0-E3778D7426ED} = {5F7AFDB0-9D0A-49EA-8A4B-43E8CB612ED8}
+		{6A5C7346-77FC-4F65-8972-8559F4889241} = {CC69AAF0-F433-412B-B3C0-E3778D7426ED}
+		{B28BA409-3CA3-497D-96E9-6F3B3FDC0A03} = {CC69AAF0-F433-412B-B3C0-E3778D7426ED}
 	EndGlobalSection
 EndGlobal
